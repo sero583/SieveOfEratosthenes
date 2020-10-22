@@ -15,6 +15,7 @@ public class Main {
         // do not check more for null we don't care about fancy JREs or other outer calls to this method in an abusive way
 	    if(args.length<1) {
             System.out.println("Please input the maximum value.");
+            System.exit(EXIT_CODE_NO_ARGS);
 	        return;
         }
 
@@ -42,6 +43,7 @@ public class Main {
 	    result = result.substring(0, result.length()-2) +  "]";
 
 	    System.out.println(result);
+	    System.exit(EXIT_CODE_OK);
     }
 
     private static boolean isPrimeNumber(int value) {
