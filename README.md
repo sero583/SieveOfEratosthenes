@@ -6,5 +6,5 @@ This is a very basic and small console-application. It prints out all prime numb
 
 * Download the JAR at the top of this repository
 * Execute the command:<br>`java -jar SieveOfErastosthenes.jar <int: maxRange>` 
-* E.g. For all prime numbers between 2-100, you do the following command:<br>
+* E.g. for all prime numbers between 2-100, you do the following command:<br>
 `java -jar SieveOfErastosthenes.jar 100`
