@@ -1,5 +1,8 @@
 package com.sero583.sieveoferatosthenes;
 
+/**
+ * @author Serhat G. (sero583)
+ */
 public class Main {
     public static final int EXIT_CODE_OK = 0;
     public static final int EXIT_CODE_NO_ARGS = 1;
